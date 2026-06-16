@@ -1,15 +1,19 @@
-pandas 
-mlflow==2.2.2
-notebook
+pandas
 numpy
 scikit-learn
 matplotlib
+seaborn
+
+mlflow==2.2.2
+
 python-box==6.0.2
-pyYAML
+PyYAML
 tqdm
 ensure==1.0.2
 joblib
 types-PyYAML
+
 Flask
 Flask-Cors
+
 -e .

@@ -4,25 +4,25 @@ with open("README.md", "r", encoding="utf-8") as f:
     long_description = f.read()
 
 
-__version__ = "0.0.0"
+__version__ = "0.0.1"
 
 REPO_NAME = "Machine_Learning_Project_with-_MLflow"
-AUTHOR_USER_NAME = "ok"
+AUTHOR_USER_NAME = "omkar"
 SRC_REPO = "mlProject"
-AUTHOR_EMAIL = "entbappy73@gmail.com"
+AUTHOR_EMAIL = "kaleomkar992@gmail.com"
 
 
 setuptools.setup(
-    name=SRC_REPO,
+    name='mlProject',
     version=__version__,
-    author=AUTHOR_USER_NAME,
-    author_email=AUTHOR_EMAIL,
+    author='omkar',
+    author_email='kaleomkar992@gmail.com',
     description="A small python package for ml app",
-    long_description=long_description,
+    long_description="A small python package for ml app",
     long_description_content="text/markdown",
-    url=f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}",
+    url=f"https://github.com/omkar9284580612/Machine_Learning-_Project_with_MLflow.git",
     project_urls={
-        "Bug Tracker": f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}/issues",
+        "Bug Tracker": f"https://github.com/omkar9284580612/Machine_Learning-_Project_with_MLflow.git/issues",
     },
     package_dir={"": "src"},
     packages=setuptools.find_packages(where="src")
